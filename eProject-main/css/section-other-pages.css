@@ -1,0 +1,363 @@
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*-----VISIT-----*/
+.visit-content{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: steelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link-content{
+    margin-top: 20px;
+}
+.link-content a:hover{
+    color: steelblue;
+}
+.visit-content a:hover{
+    color: steelblue;
+}
+/*----animal & exhibits----*/
+.explore1 h1{
+    width:100%;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    font-size:2.5em;
+}
+.explore2 p{
+    padding: 30px;
+    background: #f2f4f4;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size:1.3em;
+}
+.explore3{
+    display: flex;
+    float: left;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.explore1 div{
+    margin-top:3%;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+p{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+/*----danh----*/
+.container-sm{
+}
+
+.h4{
+    text-align: justify;
+}
+.col-3 a{
+    /*text-align: center;*/
+    /*border: 1px solid royalblue;*/
+    /*background: royalblue  ;*/
+    /*color: white;*/
+    background-color:steelblue;
+    color: white;
+    padding: 14px 25px;
+
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.col-3 a:hover{
+    background: white;
+    color: steelblue;
+    border: 2px solid steelblue;
+
+}
+.a2{
+    text-align: center;
+    margin-top:20px;
+    font-size: 14px;
+}
+.a3 a{
+    max-width: 150px;
+    max-height:60px ;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+/*-----Explore----*/
+section{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo-content{
+    border-radius: 100%;
+    margin-left: 30%;
+}
+.view-details{
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border-radius: 20%;
+}
+.pct{
+    padding-top: 150px;
+
+}
+.pct-1{
+    color: #333333;
+    font-size: 20px;
+}
+/*-----MAP----*/
+.title-map{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: white;
+}
+.content-map{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.map{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*---out mission---*/
+.page-content{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*----Giá và giờ nhập học---*/
+.container-md{
+    width: 1200px;
+    margin-bottom: 30px;
+}
+.page-content{
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+}
+.content{
+    line-height: 1.25;
+}
+.button{
+    color: white;
+    font-size: 20px;
+    border: 2px solid #36648B;
+    width: 50%;
+    background-color: steelblue;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 50px;
+}
+.button a{
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    border: 2px solid #36648B;
+}
+.button a:hover{
+    color: black;
+}
+
+/*----Encounter-----*/
+.name-content{
+    margin-top: 30px;
+}
+/*---feeding schdule--*/
+.radius{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.radius-img{
+    border-radius: 100%;
+}
+
+/*----event----*/
+.col h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.col p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+.img1 img{
+    border-radius: 50px;
+}
+.ev-row{
+    border-bottom: 2px dashed black;
+    padding-bottom: 20px;
+}
+.img1{
+    text-align: center;
+}
+
+/*---our partner---*/
+
+.our3 p {
+    padding: 30px;
+    background: #f2f4f4;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8em;
+
+    font-weight:700;
+}
+.ul-content{
+    font-size: 20px;
+}
+
+/*---penguin camp---*/
+.video-pt video{
+    width: 100%;
+}
+
+/*education*/
+.education h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 50px 0;
+}
+.education p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 150px;
+}
+.education3 h2{
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:35px;
+    margin: 20px 0px;
+}
+.education3{
+    text-align: center;
+}
+a h2:hover{
+    color: royalblue;
+}
+.education3 p{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+/*Educational Programs*/
+.educational-programs1 p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 150px;
+}
+.educational-programs2 img{
+    width: 1020px;
+    height: 573px;
+    margin-left:17%;
+}
+.educational-programs1 h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 50px 0;
+}
+/*Outreach Programs*/
+.outreach-programs p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.outreach-programs1 img{
+    width: 1020px;
+    height: 573px;
+    margin-left:17%;
+    padding-bottom: 50px;
+}
+.outreach-programs h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin: 50px 0;
+}
+.outreach-programs2 h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+/*Speciality Days (Awareness Days)*/
+.specciality h1{
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.specciality1 img{
+    height:600px ;
+}
+.specciality3 h2{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.specciality3 p{
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:500 ;
+}
+/*30years*/
+.years h1{
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.years1 h2{
+    font-weight: 600;
+    font-size: 2.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.years1 h3{
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.years2 p{
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,583 @@
+/* -------------- LAYOUT CƠ BẢN -------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #212121;
+}
+body{
+    font-size: 14px;
+    line-height: 1.25;
+    /*background-color: #e7e7e7;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+video{
+    max-width: 100%;
+    max-height: 50%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.main{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* ------ đổi màu khi chỉ vào -------- */
+a:link, a i:link{text-decoration: none; color: black}
+a:visited, a i:visited{text-decoration: none}
+a:hover, a i:hover{text-decoration: blink; color: steelblue; cursor: pointer}
+a:active, a i:active{text-decoration: none; color: steelblue; cursor: pointer}
+
+
+
+/* ------------------ A) PHẦN HEADER ------------------ */
+header .container{
+    /*Thêm thuộc tính cho container*/
+    display: flex;
+    justify-content: space-between;
+}
+/* --------------- A2) Phần MAIN-HEADER --------------- */
+.main-header{
+    padding: 0;
+}
+.main-header .site-logo{
+    width: 18%;
+    padding-top: 20px;
+}
+.main-header .categories-nav{
+    width: 38%;
+    padding-top: 20px;
+}
+.categories-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.categories-nav li{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    transition: 200ms;
+}
+.categories-nav li:hover {
+    transform: scale(1.1);
+}
+.categories-nav img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto 5px;
+}
+.header-search{
+    width: 21%;
+    float: none;
+    padding-top: 20px;
+}
+.search-form{
+    width: 100%;
+    background-color: #f6f5f5;
+    padding: 10px;
+}
+.search-form:hover{
+    border:2px solid steelblue;
+    border-radius: 12px;
+}
+.search-form input{
+    width: 90%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 3px;
+    font-size: 16px;
+}
+.search-form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.search-form button i{
+    background: transparent;
+    font-size: 20px;
+    transform: translateY(1px);
+}
+.link-header{
+    color: black;
+}
+/* --------------- A3) Phần STICKY-HEADER --------------- */
+.sticky-header.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 4;
+    display: block;
+}
+.sticky-header{
+    padding: 0;
+    box-shadow: 0 3px 10px steelblue;
+    display: none;
+}
+.sticky-header .site-logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.sticky-header .categories-nav{
+    width: 42%;
+    padding: 5px 0;
+}
+.sticky-header .categories-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.sticky-header .categories-nav li{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.sticky-header .categories-nav li:hover {
+    transform: none;
+}
+.sticky-header .categories-nav img{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 0 auto 5px;
+}
+.sticky-header .header-search{
+    width: 21%;
+    float: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.sticky-header .search-form{
+    width: 100%;
+    background-color: #f6f5f5;
+    padding: 10px;
+}
+.sticky-header .search-form:hover{
+    border:2px solid steelblue;
+    border-radius: 12px;
+}
+.sticky-header .search-form input{
+    width: 90%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 3px;
+    font-size: 16px;
+}
+.sticky-header .search-form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.sticky-header .search-form button i{
+    background: transparent;
+    font-size: 20px;
+    transform: translateY(1px);
+}
+
+/* ------------------- B) PHẦN NAV ------------------- */
+nav{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #36648B;
+    text-align: center;
+}
+.nav .container{
+    height: 50px;
+    overflow: visible;
+}
+.nav .container div{
+    float: left;
+
+}
+.dropdown{
+    float: left;
+    width: 20%;
+    padding-top: 14px;
+}
+.link-nav{
+    color: white;
+}
+/* ------------ Style menu dropdown ---------------*/
+.dropbtn{
+    background-color: #36648B;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    background-color: white;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding: 16px 0;
+    border-left: 5px solid steelblue;
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+.dropdown-content a:hover{
+    color: steelblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    color: steelblue;
+}
+
+/* Secsion main */
+.page-cta_title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.page-cta_title_wc{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+.page-cta_content{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+.page-cta_button{
+    width: 100%;
+    height: 100%;
+    background-color: #36648B;
+    color: #212121;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid steelblue;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.page-cta_action{
+    width: 20%;
+    height: 30px;
+    margin-left: 40%;
+}
+.page-cta_button a{
+    color: white;
+}
+.page-cta_button:hover{
+    background-color: white;
+    border: 2px solid #36648B;
+}
+.page-cta_button a:hover{
+    color: black;
+}
+
+
+
+
+/* FOOTER*/
+footer {
+    margin-top: 35px;
+    background-color: #36648B;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 70px 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+footer .ant-mailchimp {
+    display: flex;
+    margin-bottom: 15px;
+}
+footer .ant-mailchimp .ant-newsletter-title {
+    padding-right: 15px;
+    border-right: 2px solid white;
+}
+footer .ant-mailchimp .ant-newsletter-title .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #36648B;
+    margin-top: 0
+}
+
+footer .ant-mailchimp .ant-newsletter-title p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 16px
+}
+
+footer .ant-mailchimp .ant-mailchim-form {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    margin-left: 30px
+}
+
+footer .ant-mailchimp .ant-mailchim-form form {
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    height: 50%
+}
+
+footer .ant-mailchimp .ant-mailchim-form form input {
+    background: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    color: gray;
+    margin: 10px;
+}
+footer .ant-mailchimp .ant-mailchim-form form textarea {
+    background: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    color: gray;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form input::-webkit-input-placeholder {
+    color: gray;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form input::-moz-placeholder {
+    color: gray;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form input:-ms-input-placeholder {
+    color: gray;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form input:-moz-placeholder {
+    color: gray;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form button {
+    background: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: black;
+    width: 25%;
+}
+
+footer .ant-mailchimp .ant-mailchim-form form button:hover,
+footer .ant-mailchimp .ant-mailchim-form form button:focus {
+    color: black;
+    background-color: #36648B;
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+
+footer .footer-nav-logo {
+    color: #fff
+}
+
+footer .footer-nav-logo .logo-wrapper {
+    margin-bottom: 10px;
+    display: block
+}
+
+footer  .footer-nav-logo .logo-wrapper img {
+    max-width: 200px
+}
+
+footer  .footer-nav-logo .footer-slogan {
+    color: black;
+    margin-bottom: 8px
+}
+
+footer .footer-nav-logo .footer-slogan a {
+    color: white;
+    font-weight: 700
+}
+
+footer .footer-nav-logo .footer-slogan a:hover,
+footer .footer-nav-logo .footer-slogan a:focus {
+    color: steelblue;
+}
+
+footer .footer-nav-logo .footer-tel,
+footer .footer-nav-logo .evo-in {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 8px
+}
+
+footer .footer-nav-logo .footer-tel a:hover,
+footer .footer-nav-logo .footer-tel a:focus,
+footer .footer-nav-logo .evo-in a:hover,
+footer .footer-nav-logo .evo-in a:focus {
+    color: steelblue;
+}
+
+footer .footer-nav-logo .social {
+    margin-top: 15px
+}
+
+footer .footer-nav-logo .social a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative
+}
+
+footer .footer-nav-logo .social a svg {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+footer .footer-nav-logo .social a svg path {
+    fill: white;
+}
+
+footer .footer-nav-logo .social a+a {
+    margin-left: 10px
+}
+
+footer .footer-nav-logo .social a:hover {
+    background-color: #36648B;
+}
+
+footer .footer-nav-logo .social a:hover svg path {
+    fill: white;
+}
+
+@media (max-width: 767px) {
+    footer .footer-nav-menu {
+        margin-top: 15px
+    }
+}
+
+footer .footer-nav-menu .footer-title {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 700
+}
+
+footer .footer-nav-menu .footer-menu a {
+    display: block;
+    font-size: 15px;
+    color: white;
+}
+
+footer .footer-nav-menu .footer-menu a:hover,
+footer .footer-nav-menu .footer-menu a:focus {
+    color: black;
+}
+
+footer .footer-nav-menu .footer-menu a+a {
+    margin-top: 6px
+}
+
+.copyright {
+    border-top: 1px solid #3b3c3e;
+    padding: 15px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.copyright a {
+    color: white;
+}
+
+.copyright a:hover,
+.copyright a:focus {
+    color: black;
+}
+
+.back-to-top {
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    top: auto !important;
+    height: 40px;
+    width: 40px;
+    background-color: #36648B;
+    border: 2px solid #fff;
+    line-height: 36px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateY(-120px);
+    opacity: 0;
+    visibility: hidden
+}
+
+.back-to-top:hover {
+    color: white;
+    background-color: steelblue;
+    border-color: #36648B;
+}
+
+.back-to-top.show {
+    position: fixed;
+    z-index: 999;
+    transition: all 0.3s ease-out 0s;
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible
+}

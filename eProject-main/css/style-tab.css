@@ -1,0 +1,94 @@
+
+/*Chat bot*/
+
+.nut-mo-chatbox {
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 80px;
+}
+/* Ẩn chatbox mặc định */
+.Chatbox {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+}
+.Chatbox .nut-dong-chatbox {
+    background-color: #bcbebf;
+}
+.nut-mo-chatbox:hover {
+    opacity: 1;
+}
+.auto-chat{
+    position: fixed;
+    left:1000px;
+    right:10px;
+    top:200px;
+}
+.auto-chat .Boxchat{
+    background-color: lightsteelblue;
+}
+
+/*Group*/
+.title-header{
+    text-align: center;
+    font-size: 120px;
+}
+.body-group{
+    margin-left: 360px;
+    margin-right: 360px;
+}
+/*Experiences*/
+h2{
+    text-align: center;
+}
+.body-experiences{
+    box-sizing: border-box;
+    height: 1200px;
+    width: 1300px;
+    margin: auto;
+}
+
+.left-body-experiences{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    float: left;
+    margin-left: 110px;
+}
+.text-body-experiences{
+    text-align: center;
+    font-weight: 700;
+}
+.text-body-experiences-1{
+    margin-top: 30px;
+}
+.center-body-experiences{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    float: left;
+    margin-left: 110px;
+}
+.right-body-experiences{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    float: left;
+    margin-left: 110px;
+}
+.body-education{
+    box-sizing: border-box;
+    height: 1200px;
+    width: 1300px;
+    margin: auto;
+}
+.text-body-education{
+    margin-left: 80px;
+    font-size: 20px;
+}
